@@ -2,7 +2,7 @@ FROM docker
 
 LABEL maintainer Torsten Wolter <tow.berlin@gmail.com>
 
-RUN apk --update add git less openssh && \
+RUN apk --update add git less openssh nodejs && \
     rm -rf /var/lib/apt/lists/* && \
     rm /var/cache/apk/*
 
