@@ -1,7 +1,7 @@
 # docker-dind-git
 Make `git` and `npm` available in a Docker-In-Docker Image for ci/cd pipeline
 
-## Usage (gitlab-ci.yml to copy build to live server)
+## Usage (gitlab-ci.yml to build the image of the project)
 ```
 publish:
     image: primus852/docker-dind-git
